@@ -1,0 +1,294 @@
+.img0 img{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+.color{
+    background-color: #ffa4a4;
+    display: flex;
+    justify-content: space-between;
+}
+.size{
+    margin: 0%;
+}
+.navigation{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 60px;
+    background-color: #ff0808;
+}
+.navigation-links a{
+    color: #ffffff ;
+    text-decoration: none;
+    border-radius: 50px 50px 200px 200px;
+}
+.navigation-links a:hover{
+    background-color: #560000;
+}
+.serch input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.serch{
+    margin: 30px;
+}
+.serch button{
+    background-color: #640000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: none;
+}
+.multiple{
+    background-color: #00005d;
+    display: flex;
+    justify-content: space-between;
+}
+.title0{
+    color: #7fff00;
+    margin-left: 10px;
+}
+.button0{
+    display: grid;
+}
+.inks a:hover{
+    background-color: #0404aa;
+}
+.inks a{
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+
+.games-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.game-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.game-card h3 {
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.game-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e85d04; /* يمكنك تغيير اللون ليتناسب مع تصميمك */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #dc2f02;
+}
+.games-section {
+    padding: 20px;
+}
+
+/* توزيع العنوان والزر على الأطراف مع مسافة بينهما */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* تنسيق زر المزيد هنا */
+.btn-more {
+    background-color: #e85d04;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-more:hover {
+    background-color: #dc2f02;
+}
+
+/* شبكة الألعاب */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.game-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.game-card h3 {
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.game-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e85d04;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #dc2f02;
+}
+
+/* تنسيق الخط الفاصل أسفل الألعاب */
+.section-divider {
+    border: 0;
+    height: 1px;
+    background-color: #cccccc;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width:1023p) {
+    header{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .heroing{
+        width: 400px;
+    }
+    .name, .title{
+        font-size: 2rem;
+    }
+    .arrow{
+        display: none;
+    }
+    .aboutMe{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+    .aboutName, .aboutTitle{
+        font-size: 2rem;
+    }
+    .light{
+        width: 60px;
+    }
+    .aboutMeImg{
+        width: 400px;
+    }
+    .works{
+        padding: 0;
+    }
+    .worksContainer{
+        padding: 5rem 0rem;
+        gap: 3rem;
+    }
+    .projectTitle{
+        margin-left: 1rem;
+    }
+    .works ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contactContainer{
+        margin: 10rem 5rem;
+        gap: 2rem;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 0;
+    }
+}
